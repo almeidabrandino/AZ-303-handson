@@ -28,6 +28,15 @@ Em Server Manager
 * Em Confirmation >> Install
 * Ao final da instalação fechar o Wizard. Aparecerá no top da tela um ponto de atenção informando que está pendente a configuração para promover o servidor a controlador de domínio.
 
+* Configurar o Servidor para que ele se torno o domínio.
+* Restart da maquina
+* Criar usuário e grupos
+*** Para que seja possível sincronizar contatos via AD Connect é necessário:
+-- Global ADM na núvem
+-- Enterprise ADM no Local
+
+
+
 
 
 
