@@ -1,0 +1,39 @@
+* LAB 01
+
+1 - Criar um Resource Group    
+
+2 - Criar uma VNET
+*** manter o adress space default ***
+
+Virtual network name = vnet01
+subnet = sub-lan
+
+3 - Criar uma VM Windows
+*** o objetivo desta VM é simular um ambiente on-primesses ***
+VM Name: VM-AD01
+Disco: SSD
+VM Size: D2s_v3
+Disco: Standard SSD
+NIC network security group: Basic
+
+3.1 - Acessar VM via RDP - COnfigurar o ADDS
+Em Server Manager
+* Manage >> Add Roles and Features
+* Abrirá um Wizard >> Next em Before You Begin
+* Em Installation Type >> selecionar Role-based or feature-based installation >> Next
+* Em Server Selection >> selecionar Select a server from the server pool >> Next
+* Em Server Roles >> selecionar Active Directory Domain Services >> Add Features >> Next
+* Em Features >> Next
+* Em AD DS >> Next
+* Em Confirmation >> Install
+* Ao final da instalação fechar o Wizard. Aparecerá no top da tela um ponto de atenção informando que está pendente a configuração para promover o servidor a controlador de domínio.
+
+
+
+
+
+
+
+
+
+
